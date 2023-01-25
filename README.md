@@ -31,8 +31,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Click Here](https://www.frontendmentor.io/solutions/nft-preview-card-component-1IZSOzFrDk)
-- Live Site URL: [Click Here](https://cbrandsdev.github.io/NFT-Preview-Card-Component-Main/)
+- Solution URL: [Click Here](https://www.frontendmentor.io/solutions/3column-preview-card-component-5_Sl0Q-NCr)
+- Live Site URL: [Click Here](https://cbrandsdev.github.io/3-Column-Preview-Card-Component)
 
 ## My process
 
