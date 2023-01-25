@@ -1,6 +1,6 @@
 # Frontend Mentor - NFT preview card component solution
 
-This is a solution to the [NFT preview card component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/nft-preview-card-component-SbdUL_w0U). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
+This is a solution to the [3-column preview card component](https://www.frontendmentor.io/solutions/3column-preview-card-component--xxamoxSKH). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
 
 ## Table of contents
 
@@ -24,7 +24,8 @@ Users should be able to:
 
 ### Screenshot
 
-![](./design/screenshot.png)
+![](./design/scrennshotdesktop.png)
+![](./design/scrennshotmobile.png)
 
 
 
@@ -45,7 +46,8 @@ Users should be able to:
 
 ### What I learned
 
-In this challenge I managed to understand how the interactive elements work using hover in the css, I also managed to implement some shadows in the layout of the information box, which makes a good impression at first glance
+In this challenge I managed to understand how the interactive elements work using hover in the css, I also managed to implement some shadows in the layout of the information box, which makes a good impression at first glance. 
+I used media settings to set different settings for different mobile devices
 
 ```css
 .card {
@@ -58,6 +60,19 @@ box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
     opacity: 0.7;
     transition: all 0.3s ease-in-out;
 }
+```
+```css
+@media screen and (max-width: 688px) {
+    .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding-top: 1100px;
+    }
+    .attribution{
+        opacity: 0;
+    }
 ```
 
 
